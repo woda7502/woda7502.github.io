@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume — Alexander Wodarski</title>
+
+  <!-- Foundation CSS -->
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/app.css">
+
+  <style>
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: .25rem;
+      margin-top: 2rem;
+    }
+    .resume-section {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="grid-container">
+    <div class="grid-x align-justify align-middle">
+      <div class="cell auto">
+        <h1>Alexander Wodarski</h1>
+        <p>
+          Brooklyn Park, MN 55443 <br>
+          <a href="tel:+14845570911">484-557-0911</a> • 
+          <a href="mailto:alexander.wodarski0@gmail.com">alexander.wodarski0@gmail.com</a>
+        </p>
+      </div>
+      <div class="cell shrink">
+        <a class="button hollow small" href="/">Home</a>
+        <a class="button small" href="Alexander_Wodarski_Resume.pdf" target="_blank">Download PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="grid-container">
+    <!-- Education -->
+    <section class="resume-section">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Science in Computer Science</strong>, University of St. Thomas, Saint Paul, MN<br>
+        <em>Expected December 2025</em> — GPA: 3.80</p>
+      <ul>
+        <li>Dean's List: Spring 2024, 2025</li>
+        <li>Delta Epsilon Sigma Member</li>
+        <li>Transfer Scholarship Recipient</li>
+        <li>Relevant Coursework: Java, Python, C# for .NET, Object-Oriented Programming, Data Structures & Algorithms, Computer Architecture, Information Security, Advanced Business Intelligence Development</li>
+        <li>Computer Science Club Member</li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section class="resume-section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>PCEP – Certified Entry-Level Python Programmer</li>
+        <li>North Hennepin — Object-Oriented Programming Certificate</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="resume-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: Java, Python, C#</li>
+        <li>Troubleshooting & Problem-Solving</li>
+        <li>Organization & Time Management</li>
+        <li>Analytical and Critical Thinking</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="resume-section">
+      <h2>Experience</h2>
+
+      <h3>Convention Clothing Catalogue — Full-Stack Web Application</h3>
+      <p><em>University of Saint Thomas, Saint Paul, MN</em></p>
+      <ul>
+        <li>Built a Flask + SQLite3 web app with user accounts, product browsing, wish lists, and admin inventory management.</li>
+        <li>Designed and implemented the database schema with parameterized SQL queries, hashed passwords, and authentication controls.</li>
+        <li>Utilized AI tools to outline the system design, then refined/debugged implementation to ensure accuracy and functionality.</li>
+      </ul>
+
+      <h3>Game Server Administrator</h3>
+      <ul>
+        <li>Managed user issues, providing timely resolutions and enhancing user experience (2 hrs/day).</li>
+        <li>Conducted 5 interviews for staff positions, contributing to team-building efforts.</li>
+        <li>Collaborated with a team to manage staff operations, ensuring smooth server functionality and community engagement.</li>
+      </ul>
+
+      <h3>Teacher's Assistant</h3>
+      <p><em>Champlin Park High School, Champlin, MN</em></p>
+      <ul>
+        <li>Maintained classroom cleanliness and sanitation for student health and efficiency.</li>
+        <li>Graded assignments and reported individual progress to teacher.</li>
+        <li>Completed daily reports on attendance and disciplinary performance.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="grid-container" style="margin-top:2rem;padding:1rem 0;">
+    <small>© <span id="year"></span> Alexander Wodarski</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
