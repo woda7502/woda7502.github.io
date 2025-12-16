@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a personal website created for **Assignment 1**. The goal of the assignment is to design and publish a fully functional, publicly accessible website using only **HTML and CSS written by the student**, along with the **Foundation 6 CSS framework**. The site presents personal, academic, and professional information in a clean, organized, and responsive format.
+This project is a personal website created for **Assignment 1** of my Web Development course. The goal of the assignment is to design and publish a fully functional, publicly accessible website using only **HTML and CSS written by the student**, along with the **Foundation 6 CSS framework**. The site presents personal, academic, and professional information in a clean, organized, and responsive format.
 
 The website consists of four main pages—Home, Projects, Resume, and Fun Stuff—and demonstrates core web development concepts such as semantic HTML, consistent styling, navigation, and responsive design.
 
